@@ -2,4 +2,4 @@
 USE ShopDB;
 
 CREATE INDEX Email ON ShopDB.Customers(Email);
-CREATE INDEX Product ON ShopDB.Products(Name);
+CREATE INDEX Name ON ShopDB.Products(Name);
